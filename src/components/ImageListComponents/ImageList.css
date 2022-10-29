@@ -1,0 +1,25 @@
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.2em;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.image-list img {
+  border: 1px solid white;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.big-show {
+  width: 100%;
+  object-fit: cover;
+}
